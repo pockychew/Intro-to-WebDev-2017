@@ -1,1 +1,2 @@
-# Intro-to-WebDev-2017
+WebDev Wordpress: http://sites.bxmc.poly.edu/~xinyujiang/WebDev/
+
