@@ -1,0 +1,76 @@
+html {
+	background: url(bridge.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.button-home {
+	position: absolute;
+	left: 3%;
+	padding:8px 16px;
+	text-decoration: none;
+	border-radius: 15px;
+	background:slategray;
+	color:#fff;
+}
+
+.button-about {
+	position: absolute;
+	right: 3%;
+	padding:8px 16px;
+	text-decoration: none;
+	border-radius: 15px;
+	background:slategray;
+	color:#fff;
+}
+
+.button-brooklyn {
+	position: absolute;
+	left: 40%;
+	top: 76%;
+	padding:8px 16px;
+	text-decoration: none;
+	border-radius: 15px;
+	background:slategray;
+	color:#fff;
+}
+
+.button-manhattan {
+	position: absolute;
+	left: 52%;
+	top: 76%;
+	padding:8px 16px;
+	text-decoration: none;
+	border-radius: 15px;
+	background:slategray;
+	color:#fff;
+}
+
+.button-home:hover {
+	background:lightgray;
+}
+
+.button-about:hover {
+	background:lightgray;
+}
+
+.button-brooklyn:hover {
+	background:lightgray;
+}
+
+.button-manhattan:hover {
+	background:lightgray;
+}
+
+.text {
+	font-family: 'Oswald';
+	color: white;
+	position: absolute;
+	top: 65%;
+	left: 45%;
+	text-align: center;
+}
+
+
+
+
+

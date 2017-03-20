@@ -1,0 +1,107 @@
+html {
+	background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.button-home {
+	position: absolute;
+	left: 2%;
+	padding:8px 16px;
+	text-decoration: none;
+	border-radius: 15px;
+	background:slategray;
+	color:#fff;
+}
+
+.button-about {
+	position: absolute;
+	right: 23%;
+	padding:8px 16px;
+	text-decoration: none;
+	border-radius: 15px;
+	background:slategray;
+	color:#fff;
+}
+
+.button-brooklyn {
+	position: absolute;
+	right: 12.3%;
+	padding:8px 16px;
+	text-decoration: none;
+	border-radius: 15px;
+	background:slategray;
+	color:#fff;
+}
+
+.button-manhattan {
+	position: absolute;
+	right: 1%;
+	padding:8px 16px;
+	text-decoration: none;
+	border-radius: 15px;
+	background:slategray;
+	color:#fff;
+}
+
+.button-home:hover {
+	background:lightgray;
+}
+
+.button-about:hover {
+	background:lightgray;
+}
+
+.button-brooklyn:hover {
+	background:lightgray;
+}
+
+.button-manhattan:hover {
+	background:lightgray;
+}
+
+.text {
+	font-family: "Oswald";
+	color: white;
+	position: absolute;
+	top: 8%;
+	right: 2.5%;
+}
+
+.p1 {
+	color: white;
+	position: absolute;
+	right: 28%;
+	left: 2%;
+	text-align: center;
+	top: 23%;
+}
+
+.p2 {
+	color: white;
+	position: absolute;
+	right: 28%;
+	left: 2%;
+	text-align: center;
+	top: 77%;
+}
+
+.image1 {
+	position: absolute;
+	top: 23%;
+	right: 2.5%;
+	border-color: black;
+	box-shadow: 10px 15px 5px black;
+}
+
+.image2 {
+	position: absolute;
+	top: 77%;
+	right: 2.5%;
+	border-color: black;
+	box-shadow: 10px 15px 5px black;
+}
+
+
+
+
+
