@@ -7,3 +7,5 @@ Midterm 1 Wordpress blog: http://sites.bxmc.poly.edu/~xinyujiang/WebDev/index.ph
 Final Project Proposal: http://sites.bxmc.poly.edu/~xinyujiang/WebDev/index.php/2017/04/17/final-project-proposals/
 
 Final Live Website: http://sites.bxmc.poly.edu/~xinyujiang/Final/homepage.html
+
+Final Website Documentation Blog: http://sites.bxmc.poly.edu/~xinyujiang/WebDev/index.php/2017/05/15/final-documentation/
