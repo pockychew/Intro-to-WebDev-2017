@@ -11,6 +11,8 @@ b {
     display: block;
     margin: 0 auto;
     padding: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 form {
