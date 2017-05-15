@@ -1,0 +1,87 @@
+html {
+	background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropdwn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropdwn {
+    background-color: gray;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    opacity: 0.7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.image {
+    display: block;
+	margin: 0 auto;
+	border-radius: 15%;
+	box-shadow: 20px 15px 5px black;
+}
+
+.text {
+    letter-spacing: 2px;
+    word-spacing: 3px;
+	text-align: center;
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+	color: white;
+	font-family: "Oswald";
+	margin-bottom: 44px;
+}
+
+
+
+
+
+
+

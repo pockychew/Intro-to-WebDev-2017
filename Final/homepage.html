@@ -1,0 +1,112 @@
+<html>
+
+<head>
+<title> NYC PHOTOGRAPHY </title>
+
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles_home.css">
+
+</head>
+
+<body>
+
+<ul>
+  <li><a href="homepage.html">Homepage</a></li>
+  <li style="float: right"><a href="login.html">Login</a></li>
+  <li style="float: right"><a href="about.html">About</a></li>
+
+  <li class="dropdown" style="float: right">
+    <a href="javascript:void(0)" class="dropdwn">Brooklyn</a>
+    <div class="dropdown-content">
+      <a href="bensonhurst.html">Bensonhurst</a>
+      <a href="brooklynOther.html">Others</a>
+    </div>
+
+  <li class="dropdown" style="float: right">
+    <a href="javascript:void(0)" class="dropdwn">Manhattan</a>
+    <div class="dropdown-content">
+      <a href="chinatown.html">Chinatown</a>
+      <a href="manthattanOther.html">Others</a>
+    </div>
+</ul>
+
+<div class="title">
+  <a class="editTitle" target="_blank" href="https://www.instagram.com/new_york_city_photo/"><h1>NYC PHOTOGRAPHY</h1></a>
+</div>
+
+<div class="slides">
+
+	<div class="mySlides fade">
+	  <img src="brooklyn_bridge.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="brooklyn_other/bo8.jpg" style="width:100%">
+
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="chinatown/c8.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="brooklyn_other/bo2.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="chinatown/c5.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="manhattan_other/mo10.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="manhattan_other/mo8.jpg" style="width:100%">
+	</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+
+<script>
+var slideIndex = 0;
+SlideShow();
+
+function SlideShow() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+
+    slideIndex++;
+
+    if (slideIndex > slides.length) {slideIndex = 1}    
+
+	    for (i = 0; i < dots.length; i++) {
+	        dots[i].className = dots[i].className.replace("active", "");
+	    }
+
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(SlideShow, 4500); 
+
+	}
+</script>
+
+
+
+</body>
+</html> 

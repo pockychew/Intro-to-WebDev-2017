@@ -1,0 +1,127 @@
+html {
+	background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropdwn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropdwn {
+    background-color: gray;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    opacity: 0.7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.text {
+	font-family: 'Oswald';
+	color: white;
+	position: absolute;
+	top: 65%;
+	left: 45%;
+	text-align: center;
+}
+
+
+.slides {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.dot {
+    height: 13px;
+    width: 13px;
+    margin-top: 50px;
+    margin: 0 2px;
+    margin-bottom: 25px;
+    background-color: black;
+    border-radius: 25%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.editTitle {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 24px;
+    padding: 5px;
+}
+
+.editTitle:hover {
+    color: slategray;
+    letter-spacing: 34px;
+}
+
+.active {
+    background-color: white;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .7} 
+    to {opacity: 2}
+}
+
+@keyframes fade {
+    from {opacity: .7} 
+    to {opacity: 2}
+}
+
+
+
+
