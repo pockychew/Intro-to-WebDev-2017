@@ -7,12 +7,14 @@ b {
     color: white;
 }
 
-.placement {
-    display: block;
-    margin: 0 auto;
-    padding: 100px;
-    padding-left: 500px;
-    padding-right: 500px;
+@media only screen and (min-width: 1200px){
+	.placement {
+	    display: block;
+	    margin: 0 auto;
+	    padding: 100px;
+	    padding-left: 500px;
+	    padding-right: 500px;
+	}
 }
 
 form {
